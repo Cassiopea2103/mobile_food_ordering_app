@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">FoodOrdering</string>
+
+    <!-- SPLASH SCREEN -->
+    <string name="home_logo_description">Logo of the home page</string>
+    <string name="business_name">QuickBite</string>
+    <string name="business_motto">Fresh, fast , yours</string>
+    <string name="splash_screen_footer">Bite once , taste forever…</string>
+
+    <!-- main activity -->
+    <string name="business_motto_1">Because you deserve best , QuickBite is there\nQuality meals, good time…</string>
+    <string name="continue_button">Continue</string>
+
+    <!-- LOGIN page -->
+    <string name="login_text">Login to your account</string>
+    <string name="email_phone_hint">Email or Phone number</string>
+    <string name="password_hint">Password</string>
+    <string name="or_alternative">or</string>
+    <string name="login_alternative_text">login with</string>
+    <string name="content_description_google">Login via Google</string>
+    <string name="content_description_facebook">Login via Facebook</string>
+    <string name="facebook_text">FACEBOOK</string>
+    <string name="google_text">GOOGLE</string>
+    <string name="login_button_text">Login</string>
+    <string name="register_option_text">Don\'t have an account?</string>
+    <string name="register_option_link">Register</string>
 </resources>
