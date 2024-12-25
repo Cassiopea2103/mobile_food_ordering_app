@@ -24,4 +24,12 @@
     <string name="login_button_text">Login</string>
     <string name="register_option_text">Don\'t have an account?</string>
     <string name="register_option_link">Register</string>
+
+    <!-- REGISTRATION PAGE -->
+    <string name="signup_text">Register a new account</string>
+    <string name="name_hint">Name</string>
+    <string name="signup_text2">Sign up</string>
+    <string name="register_alternative_text">register with</string>
+    <string name="login_option_text">Already have an account?</string>
+    <string name="login_option_link">Login</string>
 </resources>
