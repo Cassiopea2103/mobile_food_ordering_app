@@ -5,15 +5,15 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatButton
-import com.cassiopea.foodordering.databinding.RegistrationBinding
+import com.cassiopea.foodordering.databinding.ActivityRegistrationBinding
 
 class Registration : AppCompatActivity () , View.OnClickListener {
 
-    private lateinit var binding : RegistrationBinding
+    private lateinit var binding : ActivityRegistrationBinding
 
     override fun onCreate ( savedInstanceState : Bundle? ) {
         super.onCreate ( savedInstanceState )
-        binding = RegistrationBinding.inflate ( layoutInflater )
+        binding = ActivityRegistrationBinding.inflate ( layoutInflater )
         setContentView ( binding.root )
 
         // set login button click listener :

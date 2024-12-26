@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatButton
-import com.cassiopea.foodordering.databinding.LandingBinding
+import com.cassiopea.foodordering.databinding.ActivityLandingPageBinding
 
 class LandingPage : AppCompatActivity () , View.OnClickListener {
 
@@ -13,7 +13,7 @@ class LandingPage : AppCompatActivity () , View.OnClickListener {
         super.onCreate(savedInstanceState)
 
         // set content view :
-        val binding : LandingBinding = LandingBinding.inflate ( layoutInflater )
+        val binding : ActivityLandingPageBinding = ActivityLandingPageBinding.inflate ( layoutInflater )
 
         setContentView ( binding.root )
 
